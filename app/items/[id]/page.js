@@ -7,7 +7,7 @@ import FadeIn from '@/app/components/FadeIn';
 // ডাটা ফেচিং ফাংশন
 async function getItem(id) {
   try {
-    const res = await fetch(`http://127.0.0.1:5000/api/items/${id}`, { cache: 'no-store' });
+    const res = await fetch(`https://my-store-backend-liart.vercel.app/api/items/${id}`, { cache: 'no-store' });
     if (!res.ok) return null;
     return res.json();
   } catch (error) {
@@ -18,7 +18,7 @@ async function getItem(id) {
 // Related Products ফেচ করার জন্য (ডেমো)
 async function getRelatedItems() {
   try {
-    const res = await fetch('http://127.0.0.1:5000/api/items', { cache: 'no-store' });
+    const res = await fetch('https://my-store-backend-liart.vercel.app/api/items', { cache: 'no-store' });
     if (!res.ok) return [];
     const data = await res.json();
     return data.slice(0, 3); 

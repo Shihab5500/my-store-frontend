@@ -5,7 +5,7 @@ import ShopContent from '../components/ShopContent';
 async function getItems() {
   try {
     
-    const res = await fetch('http://127.0.0.1:5000/api/items', { cache: 'no-store' });
+    const res = await fetch('https://my-store-backend-liart.vercel.app/api/items', { cache: 'no-store' });
     if (!res.ok) return [];
     return res.json();
   } catch (error) {
