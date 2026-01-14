@@ -19,3 +19,18 @@ A simple e-commerce application built with **Next.js 15/16 (App Router)** and **
 - **Backend:** Express.js, CORS, Body-Parser.
 - **Authentication:** JS-Cookie.
 
+## ⚙️ Setup & Installation Instructions
+
+Follow these steps to run the project locally on your machine.
+
+### Prerequisites
+Make sure you have **Node.js** installed on your system.
+
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/your-username/mystore.git](https://github.com/your-username/mystore.git)
+cd mystore
+# If you are in the root directory
+npm install
+# Start the development server
+npm run dev
