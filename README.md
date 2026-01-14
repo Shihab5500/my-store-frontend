@@ -19,11 +19,10 @@ A simple e-commerce application built with **Next.js 15/16 (App Router)** and **
 - **Backend:** Express.js, CORS, Body-Parser.
 - **Authentication:** JS-Cookie.
 
-- 🔑 Login Credentials
+🔑 Login Credentials
 To test the authentication and protected routes (like adding an item), use the following credentials:
 
 Email: admin@example.com
-
 Password: 123456
 
 ## ⚙️ Setup & Installation Instructions
