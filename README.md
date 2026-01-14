@@ -28,7 +28,7 @@ Make sure you have **Node.js** installed on your system.
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/your-username/mystore.git](https://github.com/your-username/mystore.git)
+git clone (https://github.com/Shihab5500/my-store-frontend.git)
 cd mystore
 # If you are in the root directory
 npm install
